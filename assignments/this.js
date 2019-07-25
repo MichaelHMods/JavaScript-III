@@ -2,9 +2,13 @@
 * in your own words. explain the four principle for the "this" keyword below.
 *
 * 1. Implict Binding 
+ function is called by a preceding dot, the object before that dot is this.
 * 2. explicit binding 
+this is explcitly bond to an object
 * 3. new binding
+Used with a construnctor function to build out objects.
 * 4. window binding
+when this point back to the window. 
 *
 * write out a code example of each explanation above
 */
