@@ -13,10 +13,10 @@
 
 // code example for Window Binding
 let sayMyName = function(){
-    console.log(this.name);
+    console.log(this);
 };
 
-window.name = "this window";
+// window.name = "this window";
 sayMyName();
 // Principle 2
 
